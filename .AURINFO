@@ -1,0 +1,17 @@
+pkgbase = pulseaudio-openrc
+	pkgdesc = Pulseaudio service for OpenRC
+	pkgver = 1.0
+	pkgrel = 2
+	url = http://zatherz.github.io/
+	arch = x86_64
+	arch = i686
+	license = GPLv2
+	depends = openrc-core
+	depends = pulseaudio
+	depends = consolekit-openrc
+	depends = alsa-utils-openrc
+	source = pulseaudio
+	md5sums = f3256e33f3623f8590ea16e44a2eac87
+
+pkgname = pulseaudio-openrc
+
